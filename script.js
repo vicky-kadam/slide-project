@@ -1,5 +1,6 @@
 let prev = document.querySelector('.prev');
-let next = document.querySelector('.next');
+let next = document.querySelector('.next'); 
+console.log("hello")
 
 next.addEventListener('click',() => {
   let items = document.querySelectorAll('.item');
